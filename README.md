@@ -56,7 +56,7 @@ az account show
 
 #### Prepare the VHD Image
 
-Your VHD file must be aligned to 512-byte boundaries. Check and resize if needed:
+Your VHD file must be aligned to 512-byte boundaries. If you are using a standard image from downloads.f5.com you should be fine once you extract the .vhd, if you customize that image with image builder you may want to double check before uploading. Check and resize if needed:
 
 ```bash
 # Check current size
